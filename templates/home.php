@@ -29,7 +29,7 @@ get_header(); ?>
     <div class="row">  <!-- start of =header_intro -->
       <div class="col-xs-12">
         <div class="header_intro">
-          <h3>Curabitur blandit tempus porttitor. Etiam porta sem maleda magna mollis euismod.</h3>
+          <h3>Curabitur tempus porttitor. Etiam porta sem maleda magna mollis euismod.</h3>
         </div>
       </div>
     </div>  <!-- end of =header_intro -->
