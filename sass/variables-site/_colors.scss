@@ -1,0 +1,38 @@
+$color__background-body: #fff;
+$color__background-screen: #f1f1f1;
+$color__background-hr: #ccc;
+$color__background-button: #e6e6e6;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
+
+/* =custom colors */
+$color_text_1: #1C1C1C;	/* Dark Gray */
+
+$color_logo_1: #274167; /* navy */
+$color_logo_2: #0268FF; /* medium blue */
+
+$color_bg_1: #FFF;  /* white */
+$color_bg_2: #F5F5F5;	/*  light gray */
+$color_bg_3: #a3a3a3;   /* medium gray */
+$color_bg_4: rgba(30,30,30,.8);  /* transparent dark*/
+
+$color_button_1: rgba(255,255,255,.6);	/* White-transparent */
+$color_button_2: #000;					/* Black */
+$color_button_3: #E1E1E1;	/* Light Gray */
+$color_button_4: #fff;					/* White */
+
+/* =link colors */
+$color__link: $color_text_1;
+$color__link-visited: $color_text_1;
+$color__link-hover: $color_logo_2;
+$color__text-main: $color_text_1;
