@@ -1582,14 +1582,14 @@ a {
   position: fixed;
   z-index: 9999;
   text-decoration: none;
+  font-weight: 200;
   background-color: rgba(30, 30, 30, 0.9);
   width: 100%; }
 
 .main-navigation ul {
   list-style: none;
   margin: 0;
-  padding: 0;
-  background-color: rgba(30, 30, 30, 0.9); }
+  padding: 0; }
 
 .main-navigation ul:before, .main-navigation ul:after {
   content: "";
@@ -1604,17 +1604,21 @@ a {
 
 .main-navigation a {
   height: 70px;
-  /* this must agree below*/
+  /* this must agree to two classes below*/
   font-size: 18px;
   display: block;
-  padding: 10px 15px;
+  padding: 22px 12px;
   line-height: 1.2em;
   color: #FFFFFF;
   text-decoration: none; }
 
 .main-navigation a:hover {
   text-decoration: none;
-  background-color: #0268FF; }
+  background-color: #0268FF;
+  -webkit-transition: all 250ms ease-in;
+  -moz-transition: all 250ms ease-in;
+  -o-transition: all 250ms ease-in;
+  transition: all 250ms ease-in; }
 
 .main-navigation li ul {
   background-color: rgba(30, 30, 30, 0.9); }
@@ -1623,7 +1627,8 @@ a {
   width: 220px; }
 
 .main-navigation li ul a {
-  border: none; }
+  padding: 8px 12px;
+  font-size: 16px; }
 
 .main-navigation li ul a:hover {
   background: #0268FF; }
@@ -1638,13 +1643,17 @@ a {
 .main-navigation li ul li {
   overflow: hidden;
   height: 0;
-  -webkit-transition: height 300ms ease-in;
-  -moz-transition: height 300ms ease-in;
-  -o-transition: height 300ms ease-in;
-  transition: height 300ms ease-in; }
+  -webkit-transition: height 250ms ease-in;
+  -moz-transition: height 250ms ease-in;
+  -o-transition: height 250ms ease-in;
+  transition: height 250ms ease-in; }
 
 .main-navigation ul > li:hover ul li {
   height: 36px; }
+
+.content-area {
+  margin-top: 70px;
+  /* make sure this agrees to "main-navigation a" height*/ }
 
 @media screen and (max-width: 700px) {
   .main-navigation {
