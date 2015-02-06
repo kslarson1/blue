@@ -24,7 +24,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 ----------------------------------------------------------------
 1.0 Normalize
 2.0 Typography
-2.5 CUSTOM
+2.5 custom
+2.7 bootstrap
 3.0 Elements
 4.0 Forms
 5.0 Navigation
@@ -81,6 +82,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 5.0 Navigation
 --------------------------------------------------------------*/
 @import "navigation/navigation";
+@import "navigation/slicknav";
 
 /*--------------------------------------------------------------
 6.0 Accessibility

@@ -46,6 +46,46 @@ get_header(); ?>
 </div>
 </div>
 
+<div class="break">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 center">
+      <h2>We're the best property managers in Highlands Ranch. Let us show you why.</h2>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="break">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 center">
+      <h2>We're the best property managers in Highlands Ranch. Let us show you why.</h2>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="break">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 center">
+      <h2>We're the best property managers in Highlands Ranch. Let us show you why.</h2>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="break">
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 center">
+      <h2>We're the best property managers in Highlands Ranch. Let us show you why.</h2>
+    </div>
+  </div>
+</div>
+</div>
+
 </div>  <!-- end of content -->
 
 

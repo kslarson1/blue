@@ -113,9 +113,8 @@ function my_jquery_enqueue() {
 function blue_scripts() {
 	wp_enqueue_style( 'blue-style', get_stylesheet_uri() );
 
-	// — Register your custom script in the functions.php file
+	// — Register  custom script (including responsive slider)
 	wp_enqueue_script( 'blue-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery') );
-
 
 	wp_enqueue_script( 'blue-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 

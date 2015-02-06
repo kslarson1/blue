@@ -1,3 +1,9 @@
+
+
+
+
+<!-- start of responsive header -->
+
 <?php
 /**
  * The header for our theme.
@@ -16,6 +22,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>  <!-- modernizr -->
 <?php wp_head(); ?>
 </head>
 
@@ -23,11 +30,45 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'blue' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Primary Menu', 'blue' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+<!-- start of nav -->
+<nav id="site-navigation" class="main-navigation" role="navigation">
+
+<ul id="menu">
+	<li><a href="/home">Home</a></li>
+    <li><a href="#">Services</a>
+        <ul>
+            <li><a href="#">Property Management</a></li>
+            <li><a href="#">Real Estate Brokerage</a></li>
+        </ul>
+    </li>
+     <li><a href="#">For Owners</a>
+        <ul>
+            <li><a href="#">Request Info</a></li>
+            <li><a href="#">Owner Login</a></li>
+        </ul>
+    </li>
+     <li><a href="#">For Residents</a>
+        <ul>
+            <li><a href="#">Pay Rent</a></li>
+            <li><a href="#">Request Maintenance</a></li>
+            <li><a href="#">Apply for Lease</a></li>
+            <li><a href="#">Lease Policy Overview</a></li>
+            <li><a href="#">Tenant Login</a></li>
+        </ul>
+    </li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+    <li><a href="#">Latest News</a></li>
+</ul>
+</nav>
+
+<script>
+	$(function(){
+		$('#menu').slicknav();
+	});
+</script>
+
+
+<!-- end of nav -->
 
 	<div id="content" class="site-content">
