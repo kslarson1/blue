@@ -33,6 +33,12 @@
 <!-- start of nav -->
 <nav id="site-navigation" class="main-navigation" role="navigation">
 
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-2">
+logo
+</div>
+<div class="col-xs-10">
 <ul id="menu">
 	<li><a href="/home">Home</a></li>
     <li><a href="#">Services</a>
@@ -58,8 +64,12 @@
     </li>
     <li><a href="#">About Us</a></li>
     <li><a href="#">Contact Us</a></li>
-    <li><a href="#">Latest News</a></li>
+    <li><a href="#">Blog</a></li>
 </ul>
+</div>
+</div>
+</div>
+
 </nav>
 
 <script>
