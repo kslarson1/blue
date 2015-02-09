@@ -404,10 +404,10 @@ h3 {
   font-size: 2em; }
 
 h4 {
-  font-size: 1.75em; }
+  font-size: 1.5em; }
 
 h5 {
-  font-size: 1.25em; }
+  font-size: 1.2em; }
 
 h6 {
   font-size: 1em; }
@@ -1450,7 +1450,7 @@ table {
   -o-transition: all .3s;
   transition: all .3s; }
 
-.button_ghost_long {
+.button_ghost_wide {
   display: block;
   width: 80%;
   height: 50px;
@@ -1463,8 +1463,8 @@ table {
   font-size: 1.3em;
   border: 2px solid #0268FF; }
 
-.button_ghost.long:hover,
-.button_ghost.long:active {
+.button_ghost_wide:hover,
+.button_ghost_wide:active {
   font-weight: 100;
   text-decoration: none;
   background-color: #0268FF;
@@ -1476,12 +1476,12 @@ table {
   transition: all .3s; }
 
 .button_flat {
-  font-weight: 300;
+  font-weight: 400;
   margin: .5em auto;
   padding: 8px;
   display: block;
   text-align: center;
-  color: #1C1C1C;
+  color: #274167;
   background-color: #a3a3a3;
   font-size: 1.3em;
   width: 180px;
@@ -1565,6 +1565,7 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
+  text-decoration: none;
   color: #1C1C1C; }
   a:visited {
     color: #1C1C1C; }
@@ -1578,9 +1579,17 @@ a {
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
+/*=header*/
+.image_logo {
+  background-repeat: none;
+  height: 70px;
+  background-size: auto 100%;
+  background-repeat: none;
+  background-position: center center; }
+
 .main-navigation {
   position: fixed;
-  z-index: 9999;
+  z-index: 999;
   text-decoration: none;
   font-weight: 200;
   background-color: rgba(30, 30, 30, 0.9);
@@ -1655,9 +1664,89 @@ a {
   margin-top: 70px;
   /* make sure this agrees to "main-navigation a" height*/ }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 840px) {
   .main-navigation {
-    display: none; } }
+    display: none; }
+
+  .content-area {
+    margin-top: 54px; } }
+/*=footer*/
+.footer {
+  width: 100%;
+  margin: 0;
+  padding: 2em 0 0 0;
+  background-color: rgba(30, 30, 30, 0.9);
+  border-top: 4px solid #0268FF;
+  color: #FFFFFF; }
+  .footer p {
+    color: #a3a3a3;
+    font-size: 14px;
+    padding: 0;
+    margin: .2em; }
+  .footer a {
+    color: #a3a3a3;
+    display: block; }
+    .footer a:hover {
+      color: #FFF;
+      -webkit-transition: all 250ms ease-in;
+      -moz-transition: all 250ms ease-in;
+      -o-transition: all 250ms ease-in;
+      transition: all 250ms ease-in; }
+  .footer a p {
+    text-decoration: none; }
+    .footer a p:hover {
+      color: #FFF;
+      -webkit-transition: all 250ms ease-in;
+      -moz-transition: all 250ms ease-in;
+      -o-transition: all 250ms ease-in;
+      transition: all 250ms ease-in; }
+  .footer .fa-stack-2x {
+    color: #a3a3a3; }
+  .footer .fa-stack-1x {
+    color: #FFFFFF; }
+  .footer .fa-facebook:hover {
+    color: #3b5998;
+    -webkit-transition: all 250ms ease-in;
+    -moz-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
+    transition: all 250ms ease-in; }
+  .footer .fa-twitter:hover {
+    color: #00aced;
+    -webkit-transition: all 250ms ease-in;
+    -moz-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
+    transition: all 250ms ease-in; }
+  .footer .fa-linkedin:hover {
+    color: #007bb6;
+    -webkit-transition: all 250ms ease-in;
+    -moz-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
+    transition: all 250ms ease-in; }
+  .footer .fa-youtube:hover {
+    color: #bb0000;
+    -webkit-transition: all 250ms ease-in;
+    -moz-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
+    transition: all 250ms ease-in; }
+  .footer hr {
+    margin: .8em 0 .4em 0;
+    background-color: #F5F5F5; }
+
+.footer_wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0; }
+  .footer_wrapper .col-sm-6 {
+    margin: 1.5em auto; }
+
+.footer_bottom {
+  width: 100%;
+  padding: .5em 0;
+  margin: 0;
+  background-color: #a3a3a3; }
+  .footer_bottom p {
+    color: #1C1C1C; }
+
 /*
     Mobile Menu Core Style
 */
@@ -1737,34 +1826,42 @@ a {
     Change the following styles to modify the appearance of the menu.
 */
 .slicknav_menu {
-  font-size: 16px; }
+  width: 100%;
+  font-size: 16px;
+  display: block;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  padding: 5px;
+  background-color: rgba(30, 30, 30, 0.9); }
 
 /* Button */
 .slicknav_btn {
+  font-family: Roboto, sans-serif;
   margin: 5px 5px 6px;
   text-decoration: none;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  background-color: #222222; }
+  background-color: rgba(30, 30, 30, 0.9);
+  font-weight: 300; }
+  .slicknav_btn:hover {
+    background-color: #0268FF;
+    -webkit-transition: background-color 250ms ease-in;
+    -moz-transition: background-color 250ms ease-in;
+    -o-transition: background-color 250ms ease-in;
+    transition: background-color 250ms ease-in; }
 
 /* Button Text */
 .slicknav_menu .slicknav_menutxt {
-  color: #FFF;
-  font-weight: bold;
-  text-shadow: 0 1px 3px #000; }
+  color: #FFFFFF; }
 
 /* Button Lines */
 .slicknav_menu .slicknav_icon-bar {
   background-color: #f5f5f5; }
 
-.slicknav_menu {
-  background: #4c4c4c;
-  padding: 5px; }
-
 .slicknav_nav {
-  color: #fff;
+  color: #FFFFFF;
   margin: 0;
   padding: 0;
   font-size: 0.875em; }
@@ -1785,7 +1882,7 @@ a {
   padding: 5px 10px;
   margin: 2px 5px;
   text-decoration: none;
-  color: #fff; }
+  color: #FFFFFF; }
 
 .slicknav_nav .slicknav_item a,
 .slicknav_nav .slicknav_parent-link a {
@@ -1796,15 +1893,22 @@ a {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  background: #ccc;
-  color: #fff; }
+  background-color: #0268FF;
+  color: #FFFFFF;
+  -webkit-transition: background-color 250ms ease-in;
+  -moz-transition: background-color 250ms ease-in;
+  -o-transition: background-color 250ms ease-in;
+  transition: background-color 250ms ease-in; }
 
 .slicknav_nav a:hover {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  background: #ccc;
-  color: #222; }
+  background-color: #0268FF;
+  -webkit-transition: background-color 250ms ease-in;
+  -moz-transition: background-color 250ms ease-in;
+  -o-transition: background-color 250ms ease-in;
+  transition: background-color 250ms ease-in; }
 
 .slicknav_nav .slicknav_txtnode {
   margin-left: 15px; }
@@ -1813,7 +1917,7 @@ a {
 .js .slicknav_menu {
   display: none; }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 840px) {
   .js #menu {
     display: none; }
 

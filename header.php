@@ -34,11 +34,11 @@
 <nav id="site-navigation" class="main-navigation" role="navigation">
 
 <div class="container-fluid">
-<div class="row">
-<div class="col-xs-2">
-logo
-</div>
-<div class="col-xs-10">
+	<div class="row">
+		<div class="col-xs-2">
+			<div class="image_logo" style="background-image: url(<?php the_field('header_logo'); ?>);"></div>
+		</div>
+	<div class="col-xs-10">
 <ul id="menu">
 	<li><a href="/home">Home</a></li>
     <li><a href="#">Services</a>

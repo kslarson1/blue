@@ -31,7 +31,9 @@ get_header(); ?>
         <div class="header_intro">
           <h3>Curabitur tempus porttitor. Etiam porta sem maleda magna mollis euismod.</h3>
         </div>
-      <button class="button_raised">hi there</button>
+      <button class="button_raised">Raised</button>
+      <button class="button_ghost">Ghost</button>
+      <button class="button_flat">Flat</button>
       </div>
     </div>  <!-- end of =header_intro -->
   </div>  <!-- end of container -->
@@ -46,45 +48,32 @@ get_header(); ?>
 </div>
 </div>
 
-<div class="break">
+<!-- tile -->
 <div class="container">
-  <div class="row">
-    <div class="col-xs-12 center">
-      <h2>We're the best property managers in Highlands Ranch. Let us show you why.</h2>
-    </div>
+<div class="row">
+  <div class="col-xs-12 col-md-6">
+      <div class="tile">
+      <img src="<?php the_sub_field('fill-in-image-name'); ?>">
+      <h3>Property Management</h3>
+      <hr>
+      <p>Blue Olive Properties is the premier property management company in Denver. Blue Olive Properties is the premier property management company in Denver. Blue Olive Properties is the premier property management company in Denver. </p>
+      <button class="button_ghost_wide">Learn More</button>
+      </div>
   </div>
-</div>
-</div>
 
-<div class="break">
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 center">
-      <h2>We're the best property managers in Highlands Ranch. Let us show you why.</h2>
-    </div>
+  <div class="col-xs-12 col-md-6">
+      <div class="tile">
+      <img src="<?php the_sub_field('fill-in-image-name'); ?>">
+      <h3>Property Management</h3>
+      <hr>
+      <p>Blue Olive Properties is the premier property management company in Denver. Blue Olive Properties is the premier property management company in Denver. Blue Olive Properties is the premier property management company in Denver. </p>
+       <button class="button_ghost_wide">Learn More</button>
+      </div>
   </div>
-</div>
-</div>
+  </div>
+  </div>
 
-<div class="break">
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 center">
-      <h2>We're the best property managers in Highlands Ranch. Let us show you why.</h2>
-    </div>
-  </div>
-</div>
-</div>
 
-<div class="break">
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 center">
-      <h2>We're the best property managers in Highlands Ranch. Let us show you why.</h2>
-    </div>
-  </div>
-</div>
-</div>
 
 </div>  <!-- end of content -->
 
