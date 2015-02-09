@@ -46,6 +46,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /* =custom colors */
 /* Dark Gray */
 /* White */
+/* medium gray */
 /* navy */
 /* medium blue */
 /* white */
@@ -328,11 +329,22 @@ big {
   width: 100%;
   background-color: #F5F5F5; }
 
+.bg_color_w {
+  width: 100%;
+  background-color: #FFF; }
+
 .header_intro {
   width: 90%;
   background-color: #FFF;
   padding: 1.5em;
   margin: 4em auto; }
+
+.header_intro_g {
+  width: 90%;
+  padding: 1.5em;
+  margin: 4em auto;
+  background-color: #F5F5F5;
+  color: #274167; }
 
 .break {
   width: 100%;
@@ -374,6 +386,21 @@ big {
   .tile hr {
     width: 70%; }
 
+/*=contact page*/
+#contact {
+  padding-bottom: 4em;
+  color: #6D6D6D; }
+  #contact a {
+    display: block;
+    color: #6D6D6D; }
+    #contact a:hover {
+      color: #0268FF;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      -ms-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+
 /*TYPOGRAPHY*/
 /* Google Fonts */
 /* Google Fonts */
@@ -398,7 +425,7 @@ h1 {
   font-size: 3em; }
 
 h2 {
-  font-size: 2.5em; }
+  font-size: 2.2em; }
 
 h3 {
   font-size: 2em; }
@@ -1389,7 +1416,7 @@ hr {
   background-color: #1C1C1C;
   border: 0;
   height: 1px;
-  margin-bottom: 1.5em; }
+  margin-bottom: 20px; }
 
 ul, ol {
   margin: 0 0 1.5em 3em; }
@@ -1529,16 +1556,18 @@ table {
   -o-transition: all .3s;
   transition: all .3s; }
 
+/* removed this styling
 input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  color: #666;
-  border: 1px solid #ccc;
-  border-radius: 3px; }
-
+	color: $color__text-input;
+	border: 1px solid $color__border-input;
+	border-radius: 3px;
+}
+*/
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -1557,6 +1586,17 @@ input[type="search"] {
 textarea {
   padding-left: 3px;
   width: 100%; }
+
+/*=contact form 7*/
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+  font-size: 1.3em;
+  background-color: #F5F5F5;
+  border: none;
+  width: 100%;
+  color: #1C1C1C;
+  border-radius: 6px; }
 
 /*--------------------------------------------------------------
 5.0 Navigation

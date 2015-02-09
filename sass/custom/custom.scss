@@ -28,11 +28,24 @@
 	background-color: $color_bg_2;
 }
 
+.bg_color_w {
+	width: 100%;
+	background-color: $color_bg_1;
+}
+
 .header_intro {
 	width: 90%;
 	background-color: $color_bg_1;
 	padding: 1.5em;
 	margin: 4em auto;
+}
+
+.header_intro_g {
+	width: 90%;
+	padding: 1.5em;
+	margin: 4em auto;
+	background-color: $color_bg_2;
+	color: $color_logo_1;
 }
 
 .break {
@@ -82,3 +95,26 @@
 		width: 70%;
 	}
 }
+
+/*=contact page*/
+#contact {
+	padding-bottom: 4em;
+	color: $color_text_3;
+	a {
+		display: block;
+		color: $color_text_3;
+		&:hover {
+			color: $color_logo_2;
+			-webkit-transition: all .3s;
+			-moz-transition: all .3s;
+			-ms-transition: all .3s;
+			-o-transition: all .3s;
+			transition: all .3s;  
+		}
+	}
+}
+
+
+
+
+
