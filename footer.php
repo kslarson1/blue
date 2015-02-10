@@ -59,7 +59,7 @@
 			<p>Connect to our team of experts to find out how we can be the solution for your property management needs. We are dedicated to providing nothing but excellent service.</p>
 			<hr>
 			<a href="tel:13036832526" style="font-size: 14px"><i class="fa fa-phone"></i> (303) 683-2526</a>
-			<a href="#" style="font-size: 14px"><i class="fa fa-envelope-o"></i> Message Us filloutl8r</a>
+			<a href="/contact" style="font-size: 14px"><i class="fa fa-envelope-o"></i> Contact Us</a>
 			<hr>
 			<p>200 West Plaza Drive
 			<br>

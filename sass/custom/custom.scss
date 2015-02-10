@@ -34,10 +34,11 @@
 }
 
 .header_intro {
-	width: 90%;
-	background-color: $color_bg_1;
 	padding: 1.5em;
 	margin: 4em auto;
+	width: 95%;
+	background-color: $color_bg_1;
+	color: $color_logo_1;
 }
 
 .header_intro_g {
@@ -50,12 +51,13 @@
 
 .break {
 	width: 100%;
-	min-height: 140px;
+	min-height: 120px;
 	margin: 3em 0;
 	padding: 2em;
 	background-color: $color_logo_1;
 	color: $color_text_2;
 	box-shadow: 0 0 12px 2px rgba(0, 0, 0, .4);
+	text-align: center;
 	h2 {
 		font-weight: 300;
 	}
@@ -77,7 +79,8 @@
 }
 
 .tile {
-	margin: 1em auto;
+	clear: both;
+	margin: 2em auto;
 	padding: 1em;
 	background-color: $color_bg_1;
 	max-width: 500px;
@@ -93,7 +96,13 @@
 	}
 	hr {
 		width: 70%;
+		background-color: $color_text_3;
 	}
+}
+
+/*=services page*/
+#services {
+	padding-bottom: 4em;
 }
 
 /*=contact page*/

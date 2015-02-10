@@ -24,11 +24,11 @@ get_header(); ?>
 </div>
 <!-- end =header_standard -->
 <!-- start of content -->
-<div class="bg_color">
+<div class="bg_color_w">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <div class="header_intro">
+        <div class="header_intro_g">
           <h2>Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod.</h2>
         </div>
       </div>

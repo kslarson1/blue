@@ -334,10 +334,11 @@ big {
   background-color: #FFF; }
 
 .header_intro {
-  width: 90%;
-  background-color: #FFF;
   padding: 1.5em;
-  margin: 4em auto; }
+  margin: 4em auto;
+  width: 95%;
+  background-color: #FFF;
+  color: #274167; }
 
 .header_intro_g {
   width: 90%;
@@ -348,12 +349,13 @@ big {
 
 .break {
   width: 100%;
-  min-height: 140px;
+  min-height: 120px;
   margin: 3em 0;
   padding: 2em;
   background-color: #274167;
   color: #FFFFFF;
-  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.4); }
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.4);
+  text-align: center; }
   .break h2 {
     font-weight: 300; }
 
@@ -371,7 +373,8 @@ big {
     /* medium green */ }
 
 .tile {
-  margin: 1em auto;
+  clear: both;
+  margin: 2em auto;
   padding: 1em;
   background-color: #FFF;
   max-width: 500px; }
@@ -384,7 +387,12 @@ big {
     margin: 0;
     padding: 0; }
   .tile hr {
-    width: 70%; }
+    width: 70%;
+    background-color: #6D6D6D; }
+
+/*=services page*/
+#services {
+  padding-bottom: 4em; }
 
 /*=contact page*/
 #contact {
